@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite o primeiro termo da PA");
-        float pritermo = teclado.nextInt();
+        float pritermo = teclado.nextFloat();
         System.out.println("Digite a razão da PA");
-        float razao = teclado.nextInt();
+        float razao = teclado.nextFloat();
         System.out.println("Digite o termo a ser calculado");
         int n = teclado.nextInt();
 
